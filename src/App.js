@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Headers from "./component/header/Headers";
+import { Switch, Redirect, Route } from "react-router-dom";
+import { Overview } from "./Container/Overview";
+import { NewDataForm } from "./component/Form/NewDataForm";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Headers />
+      <Switch>
+        <Route path={"/overview"} exact component={Overview} />
+        <Route path={"/newData"} exact component={NewDataForm} />
+        <Redirect from="/*" to="/overview" />
+      </Switch>
+    </>
   );
 }
 

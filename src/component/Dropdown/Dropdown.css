@@ -1,0 +1,23 @@
+.mainDropDown {
+  padding: 0;
+  width: max-content;
+  border: none;
+  font-family: "Open Sans";
+  color: black;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  font-size: 14px;
+}
+
+.dropDownOption {
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  font-family: "Open Sans";
+  color: black;
+  z-index: 4;
+  max-height: 300px;
+  font-size: 12px;
+  text-transform: capitalize;
+}

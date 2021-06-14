@@ -1,0 +1,43 @@
+.mainOverviewContainer {
+  height: 100%;
+}
+.fabContainer {
+  position: absolute;
+  bottom: 5%;
+  right: 2%;
+  display: flex;
+  align-items: center;
+}
+
+.fabLabel {
+  font-size: 14px;
+  font-weight: 600;
+  margin-right: 10px;
+}
+.overview-content-container {
+  background-color: #e4eaf1;
+  font-family: "Open Sans";
+  padding: 15px;
+  flex-wrap: nowrap !important;
+}
+
+.childOverviewContainer {
+  padding: 10px;
+  background-color: white;
+  border-radius: 6px;
+ 
+}
+
+.childOverviewContainer:first-child {
+ 
+  margin-right: 10px !important;
+}
+
+.formTitle {
+  display: inline-block;
+  margin: 10px;
+  font-weight: 600;
+  text-align: start;
+  width: 100%;
+  font-size: 16px;
+}

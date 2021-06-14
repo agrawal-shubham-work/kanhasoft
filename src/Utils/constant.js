@@ -1,0 +1,3 @@
+export const ADD_NEW_TABLE_DATA = "ADD_NEW_TABLE_DATA";
+
+export const ADD_NEW_CHART_DATA = "ADD_NEW_CHART_DATA";

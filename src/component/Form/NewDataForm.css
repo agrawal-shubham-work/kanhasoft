@@ -1,0 +1,52 @@
+.content-container {
+  background-color: #e4eaf1;
+  font-family: "Open Sans";
+  height: 100%;
+}
+
+.formContainer {
+  background-color: white;
+  flex-basis: 60% !important;
+  border-radius: 6px;
+  margin: 15px auto !important;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.formTitle {
+  display: inline-block;
+  margin: 10px;
+  font-weight: 600;
+}
+
+.formComponentContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.formComponentContainerLabel {
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button {
+  padding: 5px 15px;
+  margin-right: 10px;
+  font-weight: 600;
+  color: white;
+  border-radius: 3px;
+  border: none;
+}
+
+.confirmBTN {
+  background-color: yellowgreen;
+}
+.goBackBTN{
+  background-color: tomato;
+}

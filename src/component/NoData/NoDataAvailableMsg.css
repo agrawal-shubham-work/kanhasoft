@@ -1,0 +1,13 @@
+.noDataMsgContainer {
+  padding: 50px 0;
+  display: block;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  text-align: center;
+}
+.noDataMsg {
+  vertical-align: middle;
+}
+.noDataMsgIcon {
+  color: #f50057;
+}
